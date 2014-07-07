@@ -92,7 +92,7 @@ typedef struct _tag_subm {
 
 typedef struct _tag_Job {
 	BYTE midstate[32];
-	BYTE mshit[4];
+	BYTE mpart[4];
 	BYTE ntime[4];
 	BYTE ndiff[4];
 	BYTE exnc2[4];
